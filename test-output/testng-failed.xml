@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="DependsonEp5.dependson">
+      <class name="Ep12.DataProviderByOtherclass">
         <methods>
-          <include name="enterthehomescreen"/>
-          <include name="addToCart"/>
-          <include name="signout"/>
           <include name="login"/>
-          <include name="EnterAdress"/>
         </methods>
-      </class> <!-- DependsonEp5.dependson -->
+      </class> <!-- Ep12.DataProviderByOtherclass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
