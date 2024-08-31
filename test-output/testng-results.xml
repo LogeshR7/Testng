@@ -2,34 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-30T14:56:01 IST" name="Default suite" finished-at="2024-08-30T14:56:10 IST" duration-ms="8878">
+  <suite started-at="2024-08-31T17:33:59 IST" name="Default suite" finished-at="2024-08-31T17:34:03 IST" duration-ms="4335">
     <groups>
     </groups>
-    <test started-at="2024-08-30T14:56:01 IST" name="Default test" finished-at="2024-08-30T14:56:10 IST" duration-ms="8878">
-      <class name="Ep13.dataProciderParallel">
-        <test-method signature="remit([Ljava.lang.String;)[pri:0, instance:Ep13.dataProciderParallel@202b0582]" started-at="2024-08-30T14:56:01 IST" name="remit" data-provider="field" finished-at="2024-08-30T14:56:07 IST" duration-ms="5839" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[Ljava.lang.String;@73d4066e]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2024-08-31T17:33:59 IST" name="Default test" finished-at="2024-08-31T17:34:03 IST" duration-ms="4335">
+      <class name="Ep8.threadpoolsizeTimeout">
+        <test-method signature="InvocationPrallel()[pri:0, instance:Ep8.threadpoolsizeTimeout@793f29ff]" started-at="2024-08-31T17:33:59 IST" name="InvocationPrallel" finished-at="2024-08-31T17:34:03 IST" duration-ms="4287" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- remit -->
-        <test-method signature="remit([Ljava.lang.String;)[pri:0, instance:Ep13.dataProciderParallel@202b0582]" started-at="2024-08-30T14:56:07 IST" name="remit" data-provider="field" finished-at="2024-08-30T14:56:10 IST" duration-ms="2997" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[Ljava.lang.String;@73fb1d7f]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- InvocationPrallel -->
+        <test-method signature="InvocationPrallel()[pri:0, instance:Ep8.threadpoolsizeTimeout@793f29ff]" started-at="2024-08-31T17:33:59 IST" name="InvocationPrallel" finished-at="2024-08-31T17:34:03 IST" duration-ms="3751" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- remit -->
-      </class> <!-- Ep13.dataProciderParallel -->
+        </test-method> <!-- InvocationPrallel -->
+      </class> <!-- Ep8.threadpoolsizeTimeout -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

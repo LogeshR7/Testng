@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Ep13.dataProciderParallel">
+      <class name="cross.CrossBrowserusingparameter$CrossBrowser">
         <methods>
-          <include name="remit"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- Ep13.dataProciderParallel -->
+      </class> <!-- cross.CrossBrowserusingparameter$CrossBrowser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
