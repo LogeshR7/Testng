@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="cross.CrossBrowserusingparameter$CrossBrowser">
+      <class name="DynamicExcel.loginsss">
         <methods>
-          <include name="login"/>
+          <include name="h"/>
         </methods>
-      </class> <!-- cross.CrossBrowserusingparameter$CrossBrowser -->
+      </class> <!-- DynamicExcel.loginsss -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
