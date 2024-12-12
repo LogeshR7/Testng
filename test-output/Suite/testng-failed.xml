@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <parameter name="Email" value="dosth"/>
-  <parameter name="pass" value="itsmedosth"/>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="Browser" value="firefox"/>
     <classes>
-      <class name="EP10.parameter">
+      <class name="cross.CrossBrowserusingparameter">
         <methods>
-          <include name="login"/>
+          <include name="login" invocation-numbers="0"/>
         </methods>
-      </class> <!-- EP10.parameter -->
+      </class> <!-- cross.CrossBrowserusingparameter -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Suite] -->

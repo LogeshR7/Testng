@@ -8,9 +8,9 @@ import org.testng.annotations.Test;
 
 public class loginsss {
 	@Test(dataProvider = "logins" , dataProviderClass = data.class)
-	void h(String data []) {
-		System.out.println(data[0]);
-		System.out.println(data[1]);
+	void h(String dai []) {
+		System.out.println(dai[0]);
+		System.out.println(dai[1]);
 	
 		
 		
@@ -18,8 +18,8 @@ public class loginsss {
 		  driver.get("http://remittance.ocs.org/remittance/public/login");
 		  
 		  
-		  driver.findElement(By.id("login")).sendKeys(data[0]);
-		  driver.findElement(By.id("password")).sendKeys(data[1],Keys.ENTER);
+		  driver.findElement(By.id("login")).sendKeys(dai[0]);
+		  driver.findElement(By.id("password")).sendKeys(dai[1],Keys.ENTER);
 		 
 	}
 }
